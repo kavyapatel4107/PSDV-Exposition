@@ -7,7 +7,7 @@ website:
   navbar:
     right:
       - href: PSDV_Exposition.ipynb  # Ensure correct file reference
-        text: Notebook
+        text: Project Website
       - href: blog.qmd
         text: Blog
 

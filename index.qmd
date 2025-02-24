@@ -1,5 +1,4 @@
 ---
-title: "Interactive Data Visualization with Ipychart"
 format: html
 execute:
   freeze: auto
@@ -11,16 +10,14 @@ execute:
 Welcome to this **interactive data visualization project** using **Ipychart**—a powerful bridge between **Python** and **Chart.js** for creating stunning, dynamic visualizations.  
 
 ## 🚀 What This Project Covers  
-🔹 **Introduction to Ipychart** – A simple way to create interactive charts in Python  
-🔹 **Hands-on Notebook** – Explore real-world examples and code  
-🔹 **Data Visualization Techniques** – Learn how to generate bar charts, line graphs, and more  
-🔹 **Live Execution** – Modify and test code directly in a Jupyter Notebook  
+🔹 **Introduction to Ipychart** – A simple way to create interactive charts in Python
+🔹 **Data Visualization Techniques** – Learn how to generate bar charts, line graphs, and more
 
 ---
 
-## 📂 **Explore the Notebook**  
-👉 Click below to **open the Jupyter Notebook** and see the complete project in action:  
+## 📂 **Here We Go**  
+👉 Click below to open **Project Website** and see the complete project:  
 
-[📖 Open PSDV_Exposition.ipynb](PSDV_Exposition.ipynb)
+[Project Website](PSDV_Exposition.ipynb)
 
 ---
