@@ -9,7 +9,7 @@
   {
     "objectID": "PSDV_Exposition.html",
     "href": "PSDV_Exposition.html",
-    "title": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge",
+    "title": "Interactive Data Visualization with Ipychart",
     "section": "",
     "text": "print(\"Hello\")\n\nHello"
   }
