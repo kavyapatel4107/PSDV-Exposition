@@ -1,14 +1,6 @@
 [
   {
     "listing": "/blog.html",
-    "items": [
-      "/posts/PSDV_Exposition.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/PSDV_Exposition.html"
-    ]
+    "items": []
   }
 ]
