@@ -1,5 +1,3 @@
 ---
-title: "PSDV Exposition"
-execute:
-  eval: true
+title: "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge"
 ---
