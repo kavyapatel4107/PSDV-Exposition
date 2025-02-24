@@ -1,5 +1,4 @@
 ---
-title: "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge"
 format: html
 execute:
   freeze: auto
