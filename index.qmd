@@ -10,13 +10,13 @@ execute:
 Welcome to this **interactive data visualization project** using **Ipychart**—a powerful bridge between **Python** and **Chart.js** for creating stunning, dynamic visualizations.  
 
 ## 🚀 What This Project Covers  
-🔹 **Introduction to Ipychart** – A simple way to create interactive charts in Python
+🔹 **Introduction to Ipychart** – A simple way to create interactive charts in Python  
 🔹 **Data Visualization Techniques** – Learn how to generate bar charts, line graphs, and more
 
 ---
 
 ## **Let's Dive Deep In It**  
-👉 Click below to open **[Project Website](PSDV_Exposition.ipynb)** and see the complete project:  
+👉 Click here to open the **[Project Website](PSDV_Exposition.ipynb)** and see the complete project:  
 
 
 
