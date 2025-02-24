@@ -1,7 +1,8 @@
 ---
 title: "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge"
-listing:
-  contents: posts/PSDV_Exposition.ipynb
-  type: default
-  categories: true
+format: html
+execute:
+  freeze: auto  # or true if you want execution on render
 ---
+
+```{python}
