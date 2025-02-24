@@ -19,12 +19,5 @@
     "title": "Interactive Data Visualization …",
     "section": "",
     "text": "from IPython.display import display, HTML\n\nhtml_content = \"\"\"\n&lt;h1 style=\"text-align:center; font-family:Arial, sans-serif; color:#333;\"&gt;\n    Interactive Data Visualization with &lt;span style=\"color:#007bff; font-weight:bold;\"&gt;Ipychart&lt;/span&gt;: A Python-Chart.js Bridge\n&lt;/h1&gt;\n\"\"\"\ndisplay(HTML(html_content))\n\n\n\n    Interactive Data Visualization with Ipychart: A Python-Chart.js Bridge"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge",
-    "section": "",
-    "text": "Quarto template Text!"
   }
 ]
