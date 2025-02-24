@@ -1,7 +1,26 @@
 ---
+title: "Interactive Data Visualization with Ipychart"
 format: html
 execute:
   freeze: auto
 ---
 
-<iframe src="https://nbviewer.org/github/kavyapatel4107/PSDV-Exposition/blob/main/PSDV_Exposition.ipynb" width="100%" height="600px"></iframe>
+# 📊 Interactive Data Visualization with Ipychart  
+### A Python Bridge to Chart.js  
+
+Welcome to this **interactive data visualization project** using **Ipychart**—a powerful bridge between **Python** and **Chart.js** for creating stunning, dynamic visualizations.  
+
+## 🚀 What This Project Covers  
+🔹 **Introduction to Ipychart** – A simple way to create interactive charts in Python  
+🔹 **Hands-on Notebook** – Explore real-world examples and code  
+🔹 **Data Visualization Techniques** – Learn how to generate bar charts, line graphs, and more  
+🔹 **Live Execution** – Modify and test code directly in a Jupyter Notebook  
+
+---
+
+## 📂 **Explore the Notebook**  
+👉 Click below to **open the Jupyter Notebook** and see the complete project in action:  
+
+[📖 Open PSDV_Exposition.ipynb](PSDV_Exposition.ipynb)
+
+---
