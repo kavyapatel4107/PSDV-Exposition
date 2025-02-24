@@ -15,9 +15,9 @@ Welcome to this **interactive data visualization project** using **Ipychart**—
 
 ---
 
-## 📂 **Here We Go**  
-👉 Click below to open **Project Website** and see the complete project:  
+## **Let's Dive Deep In It**  
+👉 Click below to open **[Project Website](PSDV_Exposition.ipynb)** and see the complete project:  
 
-[Project Website](PSDV_Exposition.ipynb)
+
 
 ---
