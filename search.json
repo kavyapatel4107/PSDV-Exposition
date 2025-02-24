@@ -4,20 +4,13 @@
     "href": "blog.html",
     "title": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge",
     "section": "",
-    "text": "Interactive Data Visualization …\n\n\n\n\n\n\n\n\n\n\n\nFeb 25, 2025\n\n\nJ007_PSDV\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge\n\n\n\n\n\n\n\n\n\n\n\nFeb 25, 2025\n\n\nJ007_PSDV\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/PSDV_Exposition.html",
     "href": "posts/PSDV_Exposition.html",
-    "title": "Interactive Data Visualization …",
+    "title": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge",
     "section": "",
-    "text": "from IPython.display import display, HTML\n\nhtml_content = \"\"\"\n&lt;h1 style=\"text-align:center; font-family:Arial, sans-serif; color:#333;\"&gt;\n    Interactive Data Visualization with &lt;span style=\"color:#007bff; font-weight:bold;\"&gt;Ipychart&lt;/span&gt;: A Python-Chart.js Bridge\n&lt;/h1&gt;\n\"\"\"\ndisplay(HTML(html_content))\n\n\n\n    Interactive Data Visualization with Ipychart: A Python-Chart.js Bridge"
+    "text": "from IPython.display import display, HTML\nhtml_content = ““”\n\nInteractive Data Visualization with Ipychart: A Python-Chart.js Bridge\n\n““” display(HTML(html_content))"
   }
 ]
