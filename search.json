@@ -39,6 +39,6 @@
     "href": "PSDV_Exposition.html#installationandsetup",
     "title": "\\[Introduction\\]",
     "section": "\\[Installation~and~Setup\\]",
-    "text": "\\[Installation~and~Setup\\]\nIn this section, we will guide you through the installation and setup of Chart.js in the form of Ipychart on your system for use in Jupyter Notebook. You will learn how to install the ipychart library, verify the installation, and enable it in Jupyter. Once set up, you can easily create interactive charts using Ipychart in your notebooks.\n\nInstallation\nStep 1: Install the ipychart Library\nSince ipychart is a Python library, we need to install it using pip. Open the command prompt and run:\n\npip install ipychart"
+    "text": "\\[Installation~and~Setup\\]\nIn this section, we will guide you through the installation and setup of Chart.js in the form of Ipychart on your system for use in Jupyter Notebook. You will learn how to install the ipychart library, verify the installation, and enable it in Jupyter. Once set up, you can easily create interactive charts using Ipychart in your notebooks.\n\nInstallation\nStep 1: Install the ipychart Library\nSince ipychart is a Python library, we need to install it using pip. Open the command prompt and run:\npip install ipychart"
   }
 ]
