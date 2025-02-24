@@ -1,5 +1,5 @@
 ---
-title: Quarto Template
+title: Interactive Data Visualization with Ipychart : A Python-Chart.js Bridge
 ---
 
 Quarto template Text!

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Template"
+  title: "Interactive Data Visualization with Ipychart : A Python-Chart.js Bridge"
   navbar:
     right:
       - href: index.qmd
