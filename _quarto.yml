@@ -6,7 +6,7 @@ website:
   title: "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge"
   navbar:
     right:
-      - href: PSDV_Exposition.ipynb
+      - href: index.qmd
         text: Home
       - href: blog.qmd
         text: Blog
