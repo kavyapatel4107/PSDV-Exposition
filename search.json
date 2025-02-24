@@ -26,5 +26,19 @@
     "title": "📊 Interactive Data Visualization with Ipychart",
     "section": "",
     "text": "👉 Click here to open the Project Website and see the complete project:"
+  },
+  {
+    "objectID": "PSDV_Exposition.html",
+    "href": "PSDV_Exposition.html",
+    "title": "\\[Introduction\\]",
+    "section": "",
+    "text": "We are a team of three members: Kavya Patel, Krish Patil, and Nachiket Patil. In this article, we will explore the Ipychart library, which is used explicitly for Python in Jupyter Notebook. Ipychart is a Python library that leverages the power of Chart.js to enable the creation of fully interactive, customizable, and modular charts directly within Jupyter Notebooks. It allows seamless chart creation using Python syntax, supports integration with pandas data frames for quick visualization, and offers features like dynamic tooltips, zooming, and predefined color schemes. Particularly useful for data scientists and analysts, Ipychart simplifies data visualization by enabling the creation of visually appealing, interactive charts without leaving the Jupyter Notebook environment, streamlining exploratory data analysis and presentation."
+  },
+  {
+    "objectID": "PSDV_Exposition.html#installationandsetup",
+    "href": "PSDV_Exposition.html#installationandsetup",
+    "title": "\\[Introduction\\]",
+    "section": "\\[Installation~and~Setup\\]",
+    "text": "\\[Installation~and~Setup\\]\nIn this section, we will guide you through the installation and setup of Chart.js in the form of Ipychart on your system for use in Jupyter Notebook. You will learn how to install the ipychart library, verify the installation, and enable it in Jupyter. Once set up, you can easily create interactive charts using Ipychart in your notebooks.\n\nInstallation\nStep 1: Install the ipychart Library\nSince ipychart is a Python library, we need to install it using pip. Open the command prompt and run:\n\npip install ipychart"
   }
 ]

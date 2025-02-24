@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -67,6 +101,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -112,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction</h1>
+<h1 class="title"><span class="math display">\[Introduction\]</span></h1>
 </div>
 
 
@@ -129,8 +192,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>We are a team of three members: Kavya Patel, Krish Patil, and Nachiket Patil. In this article, we will explore the Ipychart library, which is used explicitly for Python in Jupyter Notebook. Ipychart is a Python library that leverages the power of Chart.js to enable the creation of fully interactive, customizable, and modular charts directly within Jupyter Notebooks. It allows seamless chart creation using Python syntax, supports integration with pandas data frames for quick visualization, and offers features like dynamic tooltips, zooming, and predefined color schemes. Particularly useful for data scientists and analysts, Ipychart simplifies data visualization by enabling the creation of visually appealing, interactive charts without leaving the Jupyter Notebook environment, streamlining exploratory data analysis and presentation.</p>
+<section id="installationandsetup" class="level2">
+<h2 class="anchored" data-anchor-id="installationandsetup"><span class="math display">\[Installation~and~Setup\]</span></h2>
+<p>In this section, we will guide you through the installation and setup of Chart.js in the form of Ipychart on your system for use in Jupyter Notebook. You will learn how to install the ipychart library, verify the installation, and enable it in Jupyter. Once set up, you can easily create interactive charts using Ipychart in your notebooks.</p>
+<section id="installation" class="level3">
+<h3 class="anchored" data-anchor-id="installation"><strong>Installation</strong></h3>
+<p>Step 1: Install the ipychart Library<br>
+Since ipychart is a Python library, we need to install it using pip. Open the command prompt and run:</p>
+<div id="bb0d4b82" class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install ipychart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
