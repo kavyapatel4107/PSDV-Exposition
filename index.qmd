@@ -4,4 +4,4 @@ execute:
   freeze: auto
 ---
 
-<iframe src="https://nbviewer.org/github/kavyapatel4107/PSDV-Exposition/blob/main/posts/PSDV_Exposition.ipynb" width="100%" height="600px"></iframe>
+<iframe src="https://github.com/kavyapatel4107/PSDV-Exposition/blob/master/PSDV_Exposition.ipynb" width="100%" height="600px"></iframe>
