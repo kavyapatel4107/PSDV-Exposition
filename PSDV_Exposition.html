@@ -207,49 +207,15 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="installation"><strong>Installation</strong></h3>
 <p>Install the ipychart Library .<br>
 Since ipychart is a Python library, we need to install it using pip. Open the command prompt and run:</p>
-<div id="383c838c" class="cell" data-execution_count="5">
+<div id="2799edcb" class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install ipychart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Requirement already satisfied: ipychart in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (0.5.2)
-Requirement already satisfied: ipywidgets&gt;=8.0.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipychart) (8.1.5)
-Requirement already satisfied: numpy&gt;=1.18.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipychart) (2.1.3)
-Requirement already satisfied: pandas&gt;=1.0.3 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipychart) (2.2.3)
-Requirement already satisfied: pydash&gt;=4.8.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipychart) (8.0.5)
-Requirement already satisfied: scikit-learn&gt;=0.23.2 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipychart) (1.6.1)
-Requirement already satisfied: comm&gt;=0.1.3 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets&gt;=8.0.0-&gt;ipychart) (0.2.2)
-Requirement already satisfied: ipython&gt;=6.1.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets&gt;=8.0.0-&gt;ipychart) (8.30.0)
-Requirement already satisfied: traitlets&gt;=4.3.1 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets&gt;=8.0.0-&gt;ipychart) (5.14.3)
-Requirement already satisfied: widgetsnbextension~=4.0.12 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets&gt;=8.0.0-&gt;ipychart) (4.0.13)
-Requirement already satisfied: jupyterlab-widgets~=3.0.12 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets&gt;=8.0.0-&gt;ipychart) (3.0.13)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from pandas&gt;=1.0.3-&gt;ipychart) (2.9.0.post0)
-Requirement already satisfied: pytz&gt;=2020.1 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from pandas&gt;=1.0.3-&gt;ipychart) (2024.2)
-Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from pandas&gt;=1.0.3-&gt;ipychart) (2024.2)
-Requirement already satisfied: typing-extensions!=4.6.0,&gt;3.10 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from pydash&gt;=4.8.0-&gt;ipychart) (4.12.2)
-Requirement already satisfied: scipy&gt;=1.6.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from scikit-learn&gt;=0.23.2-&gt;ipychart) (1.14.1)
-Requirement already satisfied: joblib&gt;=1.2.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from scikit-learn&gt;=0.23.2-&gt;ipychart) (1.4.2)
-Requirement already satisfied: threadpoolctl&gt;=3.1.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from scikit-learn&gt;=0.23.2-&gt;ipychart) (3.5.0)
-Requirement already satisfied: colorama in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.4.6)
-Requirement already satisfied: decorator in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (5.1.1)
-Requirement already satisfied: jedi&gt;=0.16 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.19.2)
-Requirement already satisfied: matplotlib-inline in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.1.7)
-Requirement already satisfied: prompt_toolkit&lt;3.1.0,&gt;=3.0.41 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (3.0.48)
-Requirement already satisfied: pygments&gt;=2.4.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (2.18.0)
-Requirement already satisfied: stack_data in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.6.3)
-Requirement already satisfied: six&gt;=1.5 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas&gt;=1.0.3-&gt;ipychart) (1.17.0)
-Requirement already satisfied: parso&lt;0.9.0,&gt;=0.8.4 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from jedi&gt;=0.16-&gt;ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.8.4)
-Requirement already satisfied: wcwidth in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from prompt_toolkit&lt;3.1.0,&gt;=3.0.41-&gt;ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.2.13)
-Requirement already satisfied: executing&gt;=1.2.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from stack_data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (2.1.0)
-Requirement already satisfied: asttokens&gt;=2.1.0 in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from stack_data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (3.0.0)
-Requirement already satisfied: pure-eval in c:\users\asus\appdata\local\programs\python\python312\lib\site-packages (from stack_data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets&gt;=8.0.0-&gt;ipychart) (0.2.3)
-Note: you may need to restart the kernel to use updated packages.</code></pre>
-</div>
 </div>
 </section>
 <section id="setup" class="level3">
 <h3 class="anchored" data-anchor-id="setup"><strong>Setup</strong></h3>
 <p>To use Chart.js in the form of Ipychart in your Jupyter Notebook, import the following library:</p>
 <div id="4033ff91" class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Now, you are ready to use Ipychart in your Jupyter Notebook!</p>
 </section>
@@ -278,32 +244,32 @@ Note: you may need to restart the kernel to use updated packages.</code></pre>
 <p><strong>Example 1</strong></p>
 <p>We imported Chart from the ipychart library and random to generate random values. A seed was set for consistency, and the data dictionary was created with a dataset labeled “Product Popularity.” Each data point has a random x value, a y value between 1 and 5, and a radius (r) based on another random value. The bubbles are styled with a purple fill and an indigo border. Using the Chart function, we created a bubble chart, with a legend positioned at the top. Finally, display(bubble_chart) renders the chart, visually representing product popularity.</p>
 <div id="48f70cff" class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>random.seed(<span class="dv">0</span>)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"datasets"</span>: [{</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        <span class="st">"label"</span>: <span class="st">"Product Popularity"</span>,</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">"data"</span>: [{<span class="st">"x"</span>: random.randint(<span class="dv">100</span>, <span class="dv">500</span>), <span class="st">"y"</span>: random.uniform(<span class="dv">1</span>, <span class="dv">5</span>), <span class="st">"r"</span>: random.randint(<span class="dv">100</span>, <span class="dv">500</span>) <span class="op">/</span> <span class="dv">20</span>} <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>)],</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">"backgroundColor"</span>: <span class="st">"rgba(128, 0, 128, 0.6)"</span>,</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderColor"</span>: <span class="st">"rgba(75, 0, 130, 1)"</span>,</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderWidth"</span>: <span class="dv">2</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    }]</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>bubble_chart <span class="op">=</span> Chart(</span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"bubble"</span>,</span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    options<span class="op">=</span>{</span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>        <span class="st">"plugins"</span>: {</span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>            <span class="st">"legend"</span>: {<span class="st">"position"</span>: <span class="st">"top"</span>}</span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        }</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>display(bubble_chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>random.seed(<span class="dv">0</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"datasets"</span>: [{</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="st">"label"</span>: <span class="st">"Product Popularity"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">"data"</span>: [{<span class="st">"x"</span>: random.randint(<span class="dv">100</span>, <span class="dv">500</span>), <span class="st">"y"</span>: random.uniform(<span class="dv">1</span>, <span class="dv">5</span>), <span class="st">"r"</span>: random.randint(<span class="dv">100</span>, <span class="dv">500</span>) <span class="op">/</span> <span class="dv">20</span>} <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>)],</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">"backgroundColor"</span>: <span class="st">"rgba(128, 0, 128, 0.6)"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderColor"</span>: <span class="st">"rgba(75, 0, 130, 1)"</span>,</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderWidth"</span>: <span class="dv">2</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    }]</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>bubble_chart <span class="op">=</span> Chart(</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"bubble"</span>,</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    options<span class="op">=</span>{</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>        <span class="st">"plugins"</span>: {</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>            <span class="st">"legend"</span>: {<span class="st">"position"</span>: <span class="st">"top"</span>}</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>display(bubble_chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"960f0a3ee95a450c85ef9ac1c183151f","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -315,32 +281,32 @@ Note: you may need to restart the kernel to use updated packages.</code></pre>
 <p><strong>Example 2</strong></p>
 <p>We imported Chart from the ipychart library to create an interactive bar chart. The data dictionary defines product labels and sales data for 2024 and 2025, each represented with a unique color. Using the Chart function, we generated a bar graph to compare sales performance across different products. The tooltip plugin allows users to see details when hovering over bars, while the legend at the top helps differentiate the datasets. Finally, display(chart) renders the chart, making it easy to visualize and analyze sales trends.</p>
 <div id="48c10a67" class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"labels"</span>: [<span class="st">"Product A"</span>, <span class="st">"Product B"</span>, <span class="st">"Product C"</span>, <span class="st">"Product D"</span>, <span class="st">"Product E"</span>],</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"datasets"</span>: [</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        {<span class="st">"label"</span>: <span class="st">"2024 Sales"</span>, <span class="st">"data"</span>: [<span class="dv">300</span>, <span class="dv">400</span>, <span class="dv">500</span>, <span class="dv">600</span>, <span class="dv">450</span>], <span class="st">"backgroundColor"</span>: <span class="st">"#36A2EB"</span>},</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        {<span class="st">"label"</span>: <span class="st">"2025 Sales"</span>, <span class="st">"data"</span>: [<span class="dv">350</span>, <span class="dv">450</span>, <span class="dv">550</span>, <span class="dv">650</span>, <span class="dv">500</span>], <span class="st">"backgroundColor"</span>: <span class="st">"#FF6384"</span>}</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> Chart(</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"bar"</span>,</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    options<span class="op">=</span>{</span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">"plugins"</span>: {</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>            <span class="st">"tooltip"</span>: {<span class="st">"enabled"</span>: <span class="va">True</span>, <span class="st">"mode"</span>: <span class="st">"index"</span>},</span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>            <span class="st">"legend"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"position"</span>: <span class="st">"top"</span>}</span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        },</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">"scales"</span>: {</span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>            <span class="st">"x"</span>: {<span class="st">"title"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"text"</span>: <span class="st">"Products"</span>}},</span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>            <span class="st">"y"</span>: {<span class="st">"title"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"text"</span>: <span class="st">"Sales Volume"</span>}}</span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>        }</span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>display(chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"labels"</span>: [<span class="st">"Product A"</span>, <span class="st">"Product B"</span>, <span class="st">"Product C"</span>, <span class="st">"Product D"</span>, <span class="st">"Product E"</span>],</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"datasets"</span>: [</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>        {<span class="st">"label"</span>: <span class="st">"2024 Sales"</span>, <span class="st">"data"</span>: [<span class="dv">300</span>, <span class="dv">400</span>, <span class="dv">500</span>, <span class="dv">600</span>, <span class="dv">450</span>], <span class="st">"backgroundColor"</span>: <span class="st">"#36A2EB"</span>},</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>        {<span class="st">"label"</span>: <span class="st">"2025 Sales"</span>, <span class="st">"data"</span>: [<span class="dv">350</span>, <span class="dv">450</span>, <span class="dv">550</span>, <span class="dv">650</span>, <span class="dv">500</span>], <span class="st">"backgroundColor"</span>: <span class="st">"#FF6384"</span>}</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> Chart(</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"bar"</span>,</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    options<span class="op">=</span>{</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">"plugins"</span>: {</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>            <span class="st">"tooltip"</span>: {<span class="st">"enabled"</span>: <span class="va">True</span>, <span class="st">"mode"</span>: <span class="st">"index"</span>},</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>            <span class="st">"legend"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"position"</span>: <span class="st">"top"</span>}</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">"scales"</span>: {</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>            <span class="st">"x"</span>: {<span class="st">"title"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"text"</span>: <span class="st">"Products"</span>}},</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>            <span class="st">"y"</span>: {<span class="st">"title"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"text"</span>: <span class="st">"Sales Volume"</span>}}</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>display(chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"833728ee64574ec9a1944692e7913645","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -352,21 +318,21 @@ Note: you may need to restart the kernel to use updated packages.</code></pre>
 <p><strong>Example 3</strong></p>
 <p>We imported pandas to manage data and polarplot from ipychart to create a polar chart. A DataFrame was created with categories like Speed, Reliability, Comfort, Safety, and Efficiency, each assigned a numerical value. Using the polarplot function, we mapped categories to the axes and plotted their corresponding values in a circular format. This visualization helps compare different attributes in a structured manner. Finally, display(chart) renders the polar chart, making it easy to analyze category-wise performance.</p>
 <div id="facd4714" class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> polarplot</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Category"</span>: [<span class="st">"Speed"</span>, <span class="st">"Reliability"</span>, <span class="st">"Comfort"</span>, <span class="st">"Safety"</span>, <span class="st">"Efficiency"</span>],</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Values"</span>: [<span class="dv">35</span>, <span class="dv">38</span>, <span class="dv">65</span>, <span class="dv">70</span>, <span class="dv">24</span>]</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> polarplot(</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">"Category"</span>,</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">"Values"</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>display(chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> polarplot</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Category"</span>: [<span class="st">"Speed"</span>, <span class="st">"Reliability"</span>, <span class="st">"Comfort"</span>, <span class="st">"Safety"</span>, <span class="st">"Efficiency"</span>],</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Values"</span>: [<span class="dv">35</span>, <span class="dv">38</span>, <span class="dv">65</span>, <span class="dv">70</span>, <span class="dv">24</span>]</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> polarplot(</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">"Category"</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">"Values"</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>display(chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"f31fdecd0a4b480a8b29675e82af0484","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -378,40 +344,40 @@ Note: you may need to restart the kernel to use updated packages.</code></pre>
 <p><strong>Example 4</strong></p>
 <p>We imported pandas to handle data and Chart from ipychart to create a pie chart. A DataFrame was created with smartphone companies and their respective market shares. The data dictionary extracts company names as labels and their market shares as values, assigning unique colors to each segment. Using the Chart function, we generated a pie chart to visualize market distribution. The tooltip plugin enables hover details, while the legend on the right helps identify each company. Finally, display(pie_chart) renders the chart, providing a clear visual representation of market share distribution.</p>
 <div id="c52756b9" class="cell" data-execution_count="10">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Company"</span>: [<span class="st">"Apple"</span>, <span class="st">"Samsung"</span>, <span class="st">"Huawei"</span>, <span class="st">"Xiaomi"</span>, <span class="st">"Oppo"</span>, <span class="st">"Vivo"</span>],</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Market_Share"</span>: [<span class="dv">30</span>, <span class="dv">25</span>, <span class="dv">15</span>, <span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">8</span>]</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"labels"</span>: df[<span class="st">"Company"</span>].tolist(),</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"datasets"</span>: [{</span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"label"</span>: <span class="st">"Market Share"</span>,</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">"data"</span>: df[<span class="st">"Market_Share"</span>].tolist(),</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">"backgroundColor"</span>: [<span class="st">"#3498db"</span>, <span class="st">"#e74c3c"</span>, <span class="st">"#f1c40f"</span>, <span class="st">"#2ecc71"</span>, <span class="st">"#9b59b6"</span>, <span class="st">"#e67e22"</span>],</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderColor"</span>: <span class="st">"#fff"</span>,</span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderWidth"</span>: <span class="dv">2</span></span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    }]</span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>pie_chart <span class="op">=</span> Chart(</span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"pie"</span>, </span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>    options<span class="op">=</span>{</span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>        <span class="st">"plugins"</span>: {</span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>            <span class="st">"tooltip"</span>: {<span class="st">"enabled"</span>: <span class="va">True</span>, <span class="st">"mode"</span>: <span class="st">"index"</span>},</span>
-<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>            <span class="st">"legend"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"position"</span>: <span class="st">"right"</span>}</span>
-<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>        },</span>
-<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>        <span class="st">"layout"</span>: {</span>
-<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>            <span class="st">"padding"</span>: <span class="dv">50</span>  </span>
-<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>        }</span>
-<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>display(pie_chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ipychart <span class="im">import</span> Chart</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Company"</span>: [<span class="st">"Apple"</span>, <span class="st">"Samsung"</span>, <span class="st">"Huawei"</span>, <span class="st">"Xiaomi"</span>, <span class="st">"Oppo"</span>, <span class="st">"Vivo"</span>],</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Market_Share"</span>: [<span class="dv">30</span>, <span class="dv">25</span>, <span class="dv">15</span>, <span class="dv">12</span>, <span class="dv">10</span>, <span class="dv">8</span>]</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"labels"</span>: df[<span class="st">"Company"</span>].tolist(),</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"datasets"</span>: [{</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">"label"</span>: <span class="st">"Market Share"</span>,</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>        <span class="st">"data"</span>: df[<span class="st">"Market_Share"</span>].tolist(),</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        <span class="st">"backgroundColor"</span>: [<span class="st">"#3498db"</span>, <span class="st">"#e74c3c"</span>, <span class="st">"#f1c40f"</span>, <span class="st">"#2ecc71"</span>, <span class="st">"#9b59b6"</span>, <span class="st">"#e67e22"</span>],</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderColor"</span>: <span class="st">"#fff"</span>,</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">"borderWidth"</span>: <span class="dv">2</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    }]</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>pie_chart <span class="op">=</span> Chart(</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>data,</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    kind<span class="op">=</span><span class="st">"pie"</span>, </span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    options<span class="op">=</span>{</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>        <span class="st">"plugins"</span>: {</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>            <span class="st">"tooltip"</span>: {<span class="st">"enabled"</span>: <span class="va">True</span>, <span class="st">"mode"</span>: <span class="st">"index"</span>},</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>            <span class="st">"legend"</span>: {<span class="st">"display"</span>: <span class="va">True</span>, <span class="st">"position"</span>: <span class="st">"right"</span>}</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>        <span class="st">"layout"</span>: {</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>            <span class="st">"padding"</span>: <span class="dv">50</span>  </span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>display(pie_chart)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id":"4fd926c09d0a407dae2cadab75b1f405","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
@@ -446,6 +412,7 @@ Note: you may need to restart the kernel to use updated packages.</code></pre>
 <section id="referenceandfurtherreadings" class="level2">
 <h2 class="anchored" data-anchor-id="referenceandfurtherreadings"><span class="math display">\[Reference~and~further~Readings:\]</span></h2>
 <p>&nbsp;&nbsp;For more advanced features and in-depth usage of Ipychart, refer to the official user guide: <a href="https://nicohlr.github.io/ipychart/user_guide/introduction.html" target="_blank"> Ipychart Advanced Guide – Callback Functions </a>. This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.</p>
+<p>&nbsp;&nbsp;Here is our <a href="VIDEO_URL" target="_blank">YouTube video</a> explaining ipychart more.</p>
 
 
 </section>
