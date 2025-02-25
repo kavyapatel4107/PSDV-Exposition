@@ -77,10 +77,10 @@
     "text": "\\[Conclusion\\]\n  As a team, Ipychart is a powerful and user-friendly Python library that simplifies the creation of interactive and customizable charts within Jupyter Notebooks. By leveraging the robust capabilities of Chart.js, it seamlessly integrates with pandas, offers dynamic interactivity, and provides predefined color schemes—making it an excellent choice for data scientists, analysts, and educators. Whether you’re conducting exploratory data analysis, creating engaging presentations, or teaching visualization concepts, Ipychart streamlines the process and enhances data storytelling. Its flexibility and ease of use make it a valuable tool for anyone working with data visualization in a notebook environment."
   },
   {
-    "objectID": "PSDV_Exposition.html#referenceandfurtherreadings",
-    "href": "PSDV_Exposition.html#referenceandfurtherreadings",
+    "objectID": "PSDV_Exposition.html#reference",
+    "href": "PSDV_Exposition.html#reference",
     "title": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge",
-    "section": "\\[Reference~and~further~Readings:\\]",
-    "text": "\\[Reference~and~further~Readings:\\]\n  For more advanced features and in-depth usage of Ipychart, refer to the official user guide:  Ipychart Advanced Guide – Callback Functions . This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.\n  Here is our YouTube video explaining ipychart more."
+    "section": "\\[Reference\\]",
+    "text": "\\[Reference\\]\n  For more advanced features and in-depth usage of Ipychart, refer to the official user guide:  Ipychart Advanced Guide – Callback Functions . This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.\n  Here is our YouTube video explaining ipychart more."
   }
 ]
