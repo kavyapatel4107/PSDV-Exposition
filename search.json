@@ -81,6 +81,6 @@
     "href": "PSDV_Exposition.html#reference",
     "title": "Interactive Data Visualization with Ipychart: A Python Chart.js Bridge",
     "section": "\\[Reference\\]",
-    "text": "\\[Reference\\]\n  For more advanced features and in-depth usage of Ipychart, refer to the official user guide:  Ipychart Advanced Guide – Callback Functions . This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.\n  Here is our YouTube video explaining ipychart more."
+    "text": "\\[Reference\\]\n  For more advanced features and in-depth usage of Ipychart, refer to the official user guide:  Ipychart Advanced Guide – Callback Functions . This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.\n  Here is our YouTube video explaining ipychart more.\n  Here is our GitHub Repository Page."
   }
 ]
