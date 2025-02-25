@@ -9,7 +9,7 @@ website:
       - href: index.qmd  # Ensure correct file reference
         text: Home
       - href: PSDV_Exposition.ipynb  # Ensure correct file reference
-        text: Project Website
+        text: PSDV Exposition Website
 
 format:
   html:
