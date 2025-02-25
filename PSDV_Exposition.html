@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction – Interactive Data Visualization with Ipychart</title>
+<title>Interactive Data Visualization with Ipychart: A Python Chart.js Bridge – Interactive Data Visualization with Ipychart</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -160,7 +160,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./PSDV_Exposition.html" aria-current="page"> 
-<span class="menu-text">Project Website</span></a>
+<span class="menu-text">PSDV Exposition Website</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -179,7 +179,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="math display">\[Introduction\]</span></h1>
+<h1 class="title"><strong>Interactive Data Visualization with Ipychart: A Python Chart.js Bridge</strong></h1>
 </div>
 
 
@@ -196,7 +196,10 @@ window.Quarto = {
 </header>
 
 
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction"><span class="math display">\[Introduction\]</span></h2>
 <p>&nbsp;&nbsp;We are a team of three members: Kavya Patel, Krish Patil, and Nachiket Patil. In this article, we will explore the Ipychart library, which is used explicitly for Python in Jupyter Notebook. Ipychart is a Python library that leverages the power of Chart.js to enable the creation of fully interactive, customizable, and modular charts directly within Jupyter Notebooks. It allows seamless chart creation using Python syntax, supports integration with pandas data frames for quick visualization, and offers features like dynamic tooltips, zooming, and predefined color schemes. Particularly useful for data scientists and analysts, Ipychart simplifies data visualization by enabling the creation of visually appealing, interactive charts without leaving the Jupyter Notebook environment, streamlining exploratory data analysis and presentation.</p>
+</section>
 <section id="installationandsetup" class="level2">
 <h2 class="anchored" data-anchor-id="installationandsetup"><span class="math display">\[Installation~and~Setup\]</span></h2>
 <p>&nbsp;&nbsp;In this section, we will guide you through the installation and setup of Chart.js in the form of Ipychart on your system for use in Jupyter Notebook. You will learn how to install the ipychart library, verify the installation, and enable it in Jupyter. Once set up, you can easily create interactive charts using Ipychart in your notebooks.</p>
@@ -274,6 +277,7 @@ Since ipychart is a Python library, we need to install it using pip. Open the co
 </div>
 </div>
 <p>Output:</p>
+<p><img src="bubble_chart.gif" alt="Bubble Chart GIF" style="max-width: 100%; height: auto;"></p>
 <p><strong>Example 2</strong></p>
 <p>We imported Chart from the ipychart library to create an interactive bar chart. The data dictionary defines product labels and sales data for 2024 and 2025, each represented with a unique color. Using the Chart function, we generated a bar graph to compare sales performance across different products. The tooltip plugin allows users to see details when hovering over bars, while the legend at the top helps differentiate the datasets. Finally, display(chart) renders the chart, making it easy to visualize and analyze sales trends.</p>
 <div id="48c10a67" class="cell" data-execution_count="1">
@@ -310,6 +314,7 @@ Since ipychart is a Python library, we need to install it using pip. Open the co
 </div>
 </div>
 <p>Output:</p>
+<p><img src="bar_chart.gif" alt="Bar Chart GIF" style="max-width: 100%; height: auto;"></p>
 <p><strong>Example 3</strong></p>
 <p>We imported pandas to manage data and polarplot from ipychart to create a polar chart. A DataFrame was created with categories like Speed, Reliability, Comfort, Safety, and Efficiency, each assigned a numerical value. Using the polarplot function, we mapped categories to the axes and plotted their corresponding values in a circular format. This visualization helps compare different attributes in a structured manner. Finally, display(chart) renders the polar chart, making it easy to analyze category-wise performance.</p>
 <div id="facd4714" class="cell" data-execution_count="3">
@@ -335,6 +340,7 @@ Since ipychart is a Python library, we need to install it using pip. Open the co
 </div>
 </div>
 <p>Output:</p>
+<p><img src="polar_chart.gif" alt="Polar Chart GIF" style="max-width: 100%; height: auto;"></p>
 <p><strong>Example 4</strong></p>
 <p>We imported pandas to handle data and Chart from ipychart to create a pie chart. A DataFrame was created with smartphone companies and their respective market shares. The data dictionary extracts company names as labels and their market shares as values, assigning unique colors to each segment. Using the Chart function, we generated a pie chart to visualize market distribution. The tooltip plugin enables hover details, while the legend on the right helps identify each company. Finally, display(pie_chart) renders the chart, providing a clear visual representation of market share distribution.</p>
 <div id="c52756b9" class="cell" data-execution_count="4">
@@ -404,7 +410,7 @@ Since ipychart is a Python library, we need to install it using pip. Open the co
 </section>
 <section id="referenceandfurtherreadings" class="level2">
 <h2 class="anchored" data-anchor-id="referenceandfurtherreadings"><span class="math display">\[Reference~and~further~Readings:\]</span></h2>
-<p>&nbsp;&nbsp;For more advanced features and in-depth usage of Ipychart, refer to the official user guide: <a href="https://nicohlr.github.io/ipychart/user_guide/advanced.html#callback-functions" target="_blank"> Ipychart Advanced Guide – Callback Functions </a>. This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.</p>
+<p>&nbsp;&nbsp;For more advanced features and in-depth usage of Ipychart, refer to the official user guide: <a href="https://nicohlr.github.io/ipychart/user_guide/introduction.html" target="_blank"> Ipychart Advanced Guide – Callback Functions </a>. This guide covers interactive functionalities, event handling, and advanced customization options, helping you make the most out of Ipychart in Jupyter Notebooks.</p>
 
 
 </section>
